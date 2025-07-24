@@ -12,10 +12,10 @@
   color: #111111;
   font-family: inter, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* body{
+body{
     width: 1140px;
-    margin: auto;
-} */
+    margin: 0 auto;
+}
 img {
   width: 100%;
 }
@@ -44,12 +44,21 @@ img {
   display: flex;
   align-items: center;
 }
-
+button{
+  background-color: #E95A08;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
 
 /* header nav */
 header nav {
   justify-content: space-around;
-  margin: 30px 150px 120px 150px;
+  margin: 30px 0px 120px 0px;
+  gap: 20px;
 }
 
 nav img {
@@ -89,7 +98,43 @@ nav img {
     margin-bottom: 25px;
 }
 
+/* out plants section */
+.our-plants{
+  text-align: center;
+}
+.our-plants h2{
+  font-family: noto serif, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 120px 0px 16px 0px;
+}
+.our-plants p{
+  font-size: 22px;
+}
 
+
+.plant-items-parent{
+  margin-top: 49px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.plant-item{
+
+}
+.plant-item img{
+  width:270px ;
+  height: 322px;
+}
+.plant-item h4{
+  font-size: 22px;
+  font-weight: 500;
+}
+.plant-item h3{
+  font-size: 22px;
+  font-family: inter, sans-serif;
+  font-weight: 700;
+  margin: 20px 0px 30px 0px;
+}
 
 
 
