@@ -1,6 +1,8 @@
 /* font import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* global css----------- */
 * {
   padding: 0;
@@ -10,6 +12,10 @@
   color: #111111;
   font-family: inter, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/* body{
+    width: 1140px;
+    margin: auto;
+} */
 img {
   width: 100%;
 }
@@ -19,11 +25,16 @@ img {
 .second-clr{
     color: var(--secondary-color);
 }
+.orange{
+    color: var(--third-color) ;
+}
+
 /* ----------------------- */
 /* css root class */
 :root{
     --primary-color:  #111111 ;
     --secondary-color: #8987A1;
+    --third-color: #E95A08;
 }
 
 
@@ -33,6 +44,7 @@ img {
   display: flex;
   align-items: center;
 }
+
 
 /* header nav */
 header nav {
@@ -49,4 +61,66 @@ nav img {
     gap: 48px;
     font-size: 16px;
 
+}
+/* hero section */
+.hero-section{
+    margin: 120px 150px;
+    width: 80%;
+}
+.hero-section-left{
+    width: 570px;
+  
+}
+.hero-section-left h1{
+    font-family: noto serif, sans-serif;
+    font-size: 65px;
+}
+
+.hero-section-left p{
+    font-size: 22px;
+    margin-top: 13px;
+}
+
+.hero-section-right{
+    width: 570px;
+    
+}
+.hero-section-right img{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+/* responsive css */
+@media screen and (max-width: 576px) {
+  /* reusbale css */
+  .hidden {
+    visibility: hidden;
+  }
+
+  header nav{
+    margin: 67px 16px 28px 16px;
+    text-align: center;
+    
+  }
+  nav img {
+  width: 63px;
+  height: 38px;
+}
+.fa-solid{
+    display: flex;
+}
+
+/* hero section */
+.hero-section{
+    flex-direction: column-reverse;
+}
+.hero-section-left{
+  margin: 28px 16px 13px 16px;
+}
+.hero-section-right img{
+    width: 100%;
+}
 }
