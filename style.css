@@ -180,7 +180,7 @@ nav img {
 .latest-deals p {
   font-size: 22px;
   font-weight: 400;
- 
+ color: var(--secondary-color);
   margin-bottom: 10px;
 }
 .latest-deals-card-left {
@@ -269,7 +269,6 @@ nav img {
   height: 50px;
   padding: 15px;
   border: none;
-
   outline: none;
 }
 .submit {
