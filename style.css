@@ -44,8 +44,8 @@ img {
   align-items: center;
   justify-content: center;
 }
-.flex-column{
-    display: flex;
+.flex-column {
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -120,15 +120,11 @@ nav img {
 
 .plant-items-parent {
   gap: 20px;
-
   display: grid;
   grid-template-columns: repeat(4, 270px);
   align-items: center;
   justify-content: center;
-
   margin: 0px auto 20px auto;
-}
-.plant-item {
 }
 .plant-item img {
   width: 270px;
@@ -152,12 +148,12 @@ nav img {
   align-items: center;
   position: relative;
 }
-.trusted-badge{
+.trusted-badge {
   position: absolute;
   width: 286px;
   height: 286px;
   top: -145px;
- left: 346px;
+  left: 346px;
 }
 .plant-lover-left {
   width: 540px;
@@ -188,7 +184,7 @@ nav img {
 .latest-deals p {
   font-size: 22px;
   font-weight: 400;
- color: var(--secondary-color);
+  color: var(--secondary-color);
   margin-bottom: 10px;
 }
 .latest-deals-card-left {
@@ -235,7 +231,6 @@ nav img {
   background-repeat: no-repeat;
   border-radius: 10px;
   margin-left: 28px;
-
 }
 .latest-deals-card-right h3 {
   font-size: 40px;
