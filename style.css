@@ -182,7 +182,7 @@ nav img {
   font-family: noto serif, sans-serif;
   color: white;
 }
-.join-input{
+.join-input {
   margin: 25px;
 }
 #join-input-email {
@@ -204,5 +204,36 @@ nav img {
 
 /* footer */
 footer{
+  margin: 50px auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
   gap: 110px;
+
+}
+
+.footer-1 img {
+  width: 135px;
+  height: 82px;
+}
+.footer-1 p{
+  color: #8987a1;
+  margin-top: 10px;
+}
+
+.footer-2, .footer-2 a, .footer-3, .footer-3 a{
+  flex-direction: column;
+  gap: 32px;
+  color: #8987a1;
+}
+.footer-4{
+align-items: flex-start;
+
+}
+.footer-4 img{
+width: 36px;
+height: 36px;
+margin-left: 24px;
 }
