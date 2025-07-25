@@ -1,0 +1,41 @@
+/* responsive css */
+@media screen and (max-width: 576px) {
+  /* reusbale css */
+  .hidden {
+    visibility: hidden;
+  }
+
+  header nav {
+    margin: 40px 40px 28px 20px;
+    /* text-align: center; */
+    /* text-wrap: nowrap; */
+    gap: 0px;
+  }
+  nav img {
+    width: 63px;
+    height: 38px;
+  }
+
+  /* hero section */
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+  .hero-section h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .hero-section p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .hero-section-left {
+    margin: 28px 16px 13px 16px;
+  }
+  .hero-section-right img {
+    width: 100%;
+  }
+
+  .plant-items-parent {
+    flex-direction: column;
+  }
+}
