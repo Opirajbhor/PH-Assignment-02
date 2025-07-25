@@ -150,6 +150,14 @@ nav img {
   width: 1140px;
   gap: 60px;
   align-items: center;
+  position: relative;
+}
+.trusted-badge{
+  position: absolute;
+  width: 286px;
+  height: 286px;
+  top: -145px;
+ left: 346px;
 }
 .plant-lover-left {
   width: 540px;
