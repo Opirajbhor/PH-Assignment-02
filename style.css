@@ -281,11 +281,9 @@ nav img {
 }
 
 /* footer */
-footer {
-  margin: 50px auto;
-}
 
 footer {
+  margin: 50px auto;
   display: flex;
   justify-content: center;
   gap: 110px;
